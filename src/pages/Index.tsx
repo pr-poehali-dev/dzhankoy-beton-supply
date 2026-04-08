@@ -43,7 +43,7 @@ const FAQ_ITEMS = [
 ];
 
 const STATS = [
-  { value: "25+", label: "Лет на рынке" },
+  { value: "63+", label: "Лет на рынке" },
   { value: "15 000", label: "Выполненных заказов" },
   { value: "200+", label: "Видов продукции" },
 ];
@@ -118,7 +118,7 @@ export default function Index() {
             <div className="w-8 h-8 bg-[#F97316] rounded flex items-center justify-center">
               <span className="font-oswald font-bold text-white text-sm">Б</span>
             </div>
-            <span className="font-oswald font-bold text-white text-lg tracking-wide">БЕТОНСТРОЙ</span>
+            <span className="font-oswald font-bold text-white text-lg tracking-wide">ДЖАНКОЙСКИЙ ЖБИ</span>
           </button>
 
           <div className="hidden lg:flex items-center gap-1">
@@ -301,7 +301,7 @@ export default function Index() {
                 НАДЁЖНОСТЬ,<br />ПРОВЕРЕННАЯ<br /><span className="text-[#F97316]">ВРЕМЕНЕМ</span>
               </h2>
               <p className="text-white/70 text-base leading-relaxed mb-6">
-                БетонСтрой — один из крупнейших производителей железобетонных изделий в регионе. С 1961 года мы поставляем продукцию на объекты жилищного, промышленного и инфраструктурного строительства.
+                Джанкойский ЖБИ — один из крупнейших производителей железобетонных изделий в регионе. С 1961 года мы поставляем продукцию на объекты жилищного, промышленного и инфраструктурного строительства.
               </p>
               <p className="text-white/70 text-base leading-relaxed mb-8">
                 Собственное производство площадью 15 000 м², современное оборудование и строгий контроль качества позволяют нам гарантировать соответствие всех изделий требованиям ГОСТ.
@@ -598,9 +598,9 @@ export default function Index() {
             <div className="w-7 h-7 bg-[#F97316] rounded flex items-center justify-center">
               <span className="font-oswald font-bold text-white text-sm">Б</span>
             </div>
-            <span className="font-oswald font-bold text-white">БЕТОНСТРОЙ</span>
+            <span className="font-oswald font-bold text-white">ДЖАНКОЙСКИЙ ЖБИ</span>
           </div>
-          <p className="text-white/30 text-sm text-center">© 2024 БетонСтрой. Завод железобетонных изделий. Все права защищены.</p>
+          <p className="text-white/30 text-sm text-center">© 2024 Джанкойский ЖБИ. Завод железобетонных изделий. Все права защищены.</p>
           <button className="text-white/40 text-xs hover:text-white/70 transition-colors">
             Политика конфиденциальности
           </button>
