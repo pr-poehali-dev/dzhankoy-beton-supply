@@ -46,7 +46,6 @@ const STATS = [
   { value: "25+", label: "Лет на рынке" },
   { value: "15 000", label: "Выполненных заказов" },
   { value: "200+", label: "Видов продукции" },
-  { value: "98%", label: "Довольных клиентов" },
 ];
 
 function useInView(threshold = 0.15) {
