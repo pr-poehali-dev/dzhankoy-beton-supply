@@ -30,7 +30,6 @@ const SERVICES = [
   { icon: "Truck", title: "Доставка", desc: "Собственный парк спецтехники. Доставка по всему региону в течение 1–3 дней.", color: "bg-orange-500" },
   { icon: "Wrench", title: "Монтаж", desc: "Бригады сертифицированных монтажников. Работаем с любыми объектами.", color: "bg-blue-600" },
   { icon: "Phone", title: "Консультация", desc: "Бесплатный выезд инженера на объект. Подберём оптимальное решение.", color: "bg-slate-700" },
-  { icon: "ClipboardList", title: "Проектирование", desc: "Разработка проекта под ваши задачи. Согласование с надзорными органами.", color: "bg-orange-600" },
 ];
 
 const FAQ_ITEMS = [
@@ -365,7 +364,7 @@ export default function Index() {
             <h2 className="font-oswald text-4xl md:text-5xl font-bold text-[#0F172A] mt-2">НАШИ УСЛУГИ</h2>
           </AnimSection>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid md:grid-cols-3 gap-8">
             {SERVICES.map((s, i) => (
               <AnimSection key={i}>
                 <div className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 hover:shadow-lg transition-all hover:-translate-y-1 group">
