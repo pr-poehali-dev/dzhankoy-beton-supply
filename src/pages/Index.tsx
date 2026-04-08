@@ -178,7 +178,7 @@ export default function Index() {
           <div className="max-w-2xl">
             <div className="inline-flex items-center gap-2 bg-[#F97316]/20 border border-[#F97316]/40 rounded-full px-4 py-2 mb-6 animate-fade-in-up">
               <div className="w-2 h-2 bg-[#F97316] rounded-full animate-pulse" />
-              <span className="text-[#F97316] text-sm font-medium">Завод работает с 1999 года</span>
+              <span className="text-[#F97316] text-sm font-medium">Завод работает с 1961 года</span>
             </div>
 
             <h1 className="font-oswald text-5xl md:text-7xl font-bold text-white leading-tight mb-6 animate-fade-in-up delay-100">
@@ -301,7 +301,7 @@ export default function Index() {
                 НАДЁЖНОСТЬ,<br />ПРОВЕРЕННАЯ<br /><span className="text-[#F97316]">ВРЕМЕНЕМ</span>
               </h2>
               <p className="text-white/70 text-base leading-relaxed mb-6">
-                БетонСтрой — один из крупнейших производителей железобетонных изделий в регионе. С 1999 года мы поставляем продукцию на объекты жилищного, промышленного и инфраструктурного строительства.
+                БетонСтрой — один из крупнейших производителей железобетонных изделий в регионе. С 1961 года мы поставляем продукцию на объекты жилищного, промышленного и инфраструктурного строительства.
               </p>
               <p className="text-white/70 text-base leading-relaxed mb-8">
                 Собственное производство площадью 15 000 м², современное оборудование и строгий контроль качества позволяют нам гарантировать соответствие всех изделий требованиям ГОСТ.
@@ -327,7 +327,7 @@ export default function Index() {
               <div className="relative">
                 <div className="absolute -inset-4 bg-[#F97316]/10 rounded-2xl" />
                 <div className="relative bg-white/5 border border-white/10 rounded-2xl p-8">
-                  <div className="font-oswald font-bold text-white/20 text-8xl leading-none mb-4">1999</div>
+                  <div className="font-oswald font-bold text-white/20 text-8xl leading-none mb-4">1961</div>
                   <h3 className="font-oswald font-bold text-white text-2xl mb-4">Производственные мощности</h3>
                   <div className="space-y-4">
                     {[
