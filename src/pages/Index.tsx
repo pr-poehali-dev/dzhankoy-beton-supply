@@ -134,9 +134,9 @@ export default function Index() {
           </div>
 
           <div className="flex items-center gap-3">
-            <a href="tel:+78001234567" className="hidden md:flex items-center gap-2 text-white text-sm font-medium hover:text-[#F97316] transition-colors">
+            <a href="tel:+79782095699" className="hidden md:flex items-center gap-2 text-white text-sm font-medium hover:text-[#F97316] transition-colors">
               <Icon name="Phone" size={16} className="text-[#F97316]" />
-              8 800 123-45-67
+              +7 978 209-56-99
             </a>
             <button
               onClick={() => scrollTo("contacts")}
@@ -516,8 +516,9 @@ export default function Index() {
 
               <div className="space-y-5 mb-8">
                 {[
-                  { icon: "Phone", label: "Телефон", val: "8 800 123-45-67 (бесплатно)", href: "tel:+78001234567" },
-                  { icon: "Mail", label: "Email", val: "info@betonstroy.ru", href: "mailto:info@betonstroy.ru" },
+                  { icon: "Phone", label: "Телефон", val: "+7 978 209-56-99", href: "tel:+79782095699" },
+                  { icon: "Phone", label: "Телефон", val: "+7 978 882-75-48", href: "tel:+79788827548" },
+                  { icon: "Mail", label: "Email", val: "jelezobeton-ark@yandex.ru", href: "mailto:jelezobeton-ark@yandex.ru" },
                   { icon: "MapPin", label: "Адрес", val: "г. Москва, Промышленная ул., 15", href: "#" },
                   { icon: "Clock", label: "Режим работы", val: "Пн–Пт 8:00–18:00, Сб 9:00–14:00", href: "#" },
                 ].map((c, i) => (
